@@ -6,7 +6,7 @@ termux-setup-storage
 
 pkg update -y  (ใส่ค่า n ในทุกการเรียกถาม)
 
-pkg install git -y && pkg install nano
+pkg install git -y
 
 cd storage/downloads
 
