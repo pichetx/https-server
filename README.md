@@ -4,7 +4,7 @@ https-server for Termux ( Node.js )
 
 termux-setup-storage
 
-pkg update -y
+pkg update -y  (ใส่ค่า n ในทุกการเรียกถาม)
 
 pkg install git -y && pkg install nano
 
@@ -14,16 +14,9 @@ git clone https://github.com/pichetx/https-server
 
 cd https-server
 
-mv run-node /data/data/com.termux/files/usr/bin
+chmod +x install.sh
 
-cd /data/data/com.termux/files/usr/bin
+sh install.sh
 
-chmod +x run-node
+หลังจากเปิดไฟล์ bash.bashrc เพิ่มบรรทัดแรกเป็น run-node
 
-cd && cd /data/data/com.termux/files/usr/etc
-
-nano bash.bashrc
-
-หลังจากเปิดไฟล์ bash.bashrc เพิ่มบรรทัดแรกเป็น
-
-run-node
