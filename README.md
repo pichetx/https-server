@@ -10,7 +10,7 @@ pkg install git -y && pkg install nano
 
 cd storage/downloads
 
-git clone https://github.com/pichetx/htts-server
+git clone https://github.com/pichetx/https-server
 
 cd https-server
 
