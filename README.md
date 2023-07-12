@@ -23,12 +23,14 @@ git clone https://github.com/pichetx/https-server
 ```
 ```
 cd https-server
+```
 
 ```
 chmod +x install.sh
+```
 
-sh install.sh
-
+```sh install.sh
+```
 หลังจากเปิดไฟล์ bash.bashrc เพิ่มบรรทัดแรกเป็น run-node
 
 ไฟล์ข้อมูลที่ต้องการ นำมาใส่ไว้ที่แฟ้ม downloads/https-server ตามต้องการ
