@@ -2,13 +2,21 @@
 https-server for Termux ( Node.js )
 -----------------------------------------------
 
+```
 termux-setup-storage
+```
+```
+pkg update -y
+```
+* (ใส่ค่า n ในทุกการเรียกถาม)
 
-pkg update -y  (ใส่ค่า n ในทุกการเรียกถาม)
-
+```
 pkg install git -y
+```
 
+```
 cd storage/downloads
+```
 
 git clone https://github.com/pichetx/https-server
 
