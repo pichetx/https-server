@@ -28,8 +28,8 @@ cd https-server
 ```
 chmod +x install.sh
 ```
-
-```sh install.sh
+```
+sh install.sh
 ```
 หลังจากเปิดไฟล์ bash.bashrc เพิ่มบรรทัดแรกเป็น run-node
 
