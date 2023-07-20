@@ -1,0 +1,6 @@
+#!/bin/bash
+
+cd
+cd storage/downloads
+cd https-server
+python3 editserver.py
