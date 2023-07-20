@@ -27,7 +27,7 @@ def setminer():
         
 
         print("ตัวอย่าง: \033[93mx หรือ ( hybrid เฉพาะ luckpool )\033[00m")
-        print("        \033[93mc=DOGE,mc=VRSC ไม่ต้องใส่ id=ชื่อ ระบบจะadd auto\033[00m")
+        print("        \033[93mc=DOGE,mc=VRSC ไม่ต้องใส่ id=ชื่อ ระบบจะ add auto\033[00m")
         password = input("password : ")
         print("\033[35m-----------------------------------------\033[0m")
         
@@ -39,7 +39,7 @@ def setminer():
         os.system("@cls||clear")
         print("เกิดข้อผิดพลาดโปรดตั้งค่าใหม่!")
         time.sleep(3)
-        os.system("python3 edit.py")
+        os.system("python3 editserver.py")
 
     push = {
         'pool': pool,
