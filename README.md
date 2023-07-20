@@ -1,9 +1,8 @@
 # https-server
 https-server for Termux ( Node.js )
 -----------------------------------------------
-```
-แตะหน้าจอค้าง แล้วเลือก more ไปติีก keep screen on
-```
+
+* แตะหน้าจอค้าง แล้วเลือก more ไปติีก keep screen on
 ```
 termux-setup-storage
 ```
