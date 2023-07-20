@@ -38,5 +38,8 @@ run-node
 ```
 กด ctrl+x แล้วตอบ y เพื่อ save
 
-ไฟล์ข้อมูลที่ต้องการ นำมาใส่ไว้ที่แฟ้ม downloads/https-server ตามต้องการ
+การใช้งาน
+ctrl c เพื่อหยุด
+edit-miner เพื่อแก้ไข pool,wallet.pass
+run-node เพื่อ run server
 --------------------------------
