@@ -5,11 +5,12 @@ import os, time, json
 
 def banner():
 	os.system("clear")
- print("\033[1;34;40m")
+	print("\033[1;34;40m")
 	os.system("figlet -f big VERUS")
 	os.system("figlet -f digital http-server")
- print("\033[36m\033[0m")
- print("\033[36mEdit by PICHET SAENGTEWAN\033[0m")
+	print("\033[00m\n")
+	print("\033[36mEdit by PICHET SAENGTEWAN\033[0m")
+	print("\033[36m\033[0m")
 
 def setminer():
 
@@ -49,9 +50,23 @@ def setminer():
     }
     with open("online.json", "w") as set:
         json.dump(push, set, indent=4)
+        
+        #with open("online.json",encoding="utf-8") as set:
+        #	load = set.read()
+        #	loads = json.loads(load)
+       # 	pool = loads['pool']
+      #  	wallet = loads['wallet']
+        #	password = loads['pass']
+        #	return
+        	  #print("\033[35m")
+              #  print("POOL=",pool)
+                #print("WALLET  =",wallet)
+           #     print("PASS  =",password)
+          	#print("\033[0m\n")
 
 
 while True:
     banner()
     setminer()
     break
+
