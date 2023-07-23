@@ -22,10 +22,8 @@ def setminer():
         print(" \033[93mstratum+tcp://verus.asia.mine.zergpool.com:3300\033[00m")
         pool = input(" pool : ")
         print("\033[35m-----------------------------------------\033[0m")
-        pool = input(" pool : ")
-        print("\033[35m-----------------------------------------\033[0m")
         
-
+      
         print("ตัวอย่าง: \033[93mRQpWNdNZ4LQ5yHUM3VAVuhUmMMiMuGLUhT\033[00m")
         wallet = input("wallet: ")
         print("\033[35m-----------------------------------------\033[0m")
