@@ -8,8 +8,8 @@ def banner():
  print("\033[1;34;40m")
 	os.system("figlet -f big VERUS")
 	os.system("figlet -f digital http-server")
- print("\033[36m\033[0m")   print("\033[36mEdit by PICHET SAENGTEWAN\033[0m")
-	print("\033[36m\033[0m")
+ print("\033[36m\033[0m")
+ print("\033[36mEdit by PICHET SAENGTEWAN\033[0m")
 
 def setminer():
 
