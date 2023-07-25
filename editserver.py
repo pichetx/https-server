@@ -19,7 +19,7 @@ def setminer():
     try:
         print("ตัวอย่าง:")
         print(" \033[93mstratum+tcp://ap.luckpool.net:3956\033[00m")
-        print(" \033[93mstratum+tcp://verus.asia.mine.zergpool.com:3300\033[00m")
+        print(" \033[93mstratum+tcp://verushash.asia.mine.zergpool.com:3300\033[00m")
         pool = input(" pool : ")
         print("\033[35m-----------------------------------------\033[0m")
         
