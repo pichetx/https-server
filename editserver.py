@@ -75,8 +75,9 @@ while True:
         	pool = loads['pool']
         	wallet = loads['wallet']
         	password = loads['pass']
-  
-        	print("\033[35m")
+        	
+        	print("\033[36m")
+        	print("การตั้งค่าที่บันทึก")
         	print("POOL  =",pool)
         	print("WALLET=",wallet)
         	print("PASS  =",password)
