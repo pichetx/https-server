@@ -82,6 +82,7 @@ while True:
         	print("WALLET=",wallet)
         	print("PASS  =",password)
         	print("\033[0m\n")
+        	print("\033[31mโปรดตรวจสอบการตั้งค่า ถ้าถูกต้อง ให้ใช้คำสั่ง  run-node  หรือ edit-miner เพื่อแก้ไข\033[0m")
     break
 
 
