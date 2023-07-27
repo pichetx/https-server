@@ -44,3 +44,9 @@ ctrl c เพื่อหยุด
 edit-miner เพื่อแก้ไข pool,wallet.pass
 run-node เพื่อ run server
 --------------------------------
+# การใช้งานรูปแบบอื่น
+-ใช้เป็นที่เก็บไฟล์ สำหรับdownload ภายในเครือข่ายเดียวกัน โดยนำไฟล์ที่ต้องการใช้งานไปเก็บไว้ในแฟ้มdownload เช่นไฟล์ชื่อ lotto
+  การdownload โดยใช้ browser เช่น chrome google ทำได้โดย พิมพ์ http://(ipและportตามหน้าnode.js)
+จะเข้าสู้หน้าindex เลือกdownloads ตามต้องการ
+  การdownload โดยใช้ termux ให้cd ไปยังpathที่จะใช้save พิมพ์ wget http://(ipและportตามหน้าnode.js)/lotto
+  สามารถใช้download ได้เฉพาะไฟบ์เท่านั้น หากรูปแบบเป็นfolderจะไม่สามารถdownloadได้
