@@ -3,4 +3,4 @@
 cd
 cd storage/downloads
 cd https-server
-http-server
+sh https-server.sh
