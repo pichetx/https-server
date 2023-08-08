@@ -24,7 +24,7 @@ def setminer():
         print("\033[35m-----------------------------------------\033[0m")
         
       
-        print("ตัวอย่าง: \033[93mRQpWNdNZ4LQ5yHUM3VAVuhUmMMiMuGLUhT\033[00m")
+        print("ตัวอย่าง: \033[93mRKh6cinBtWFspyBfK6Xsu8JKJsFyfYmUCr\033[00m")
         print("        \033[93mDCYiQottcGcnmzkp9KqqJwowc3ifEZUxm1\033[00m")
         wallet = input("wallet: ")
         print("\033[35m-----------------------------------------\033[0m")
