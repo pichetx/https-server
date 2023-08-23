@@ -2,8 +2,10 @@
 
 apt-get update -y
 apt-get upgrade -y
-pkg install python3 -y
-pkg install figlet -y
+apt install python3 -y
+apt install figlet -y
+apt install nodejs -y
+npm install http-server -g
 
 chmod +x run-node
 chmod +x edit-miner
